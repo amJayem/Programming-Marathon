@@ -1,9 +1,14 @@
 /** Problem link: https://codeforces.com/problemset/problem/4/A **/
 
 #include<cstdio>
-
+void jayem();
 int main()
 {
+    jayem();
+	return 0;
+}
+
+void jayem(){
     int w;
 
     scanf("%d",&w);
@@ -15,5 +20,4 @@ int main()
     else{
         printf("NO\n");
     }
-	return 0;
 }
